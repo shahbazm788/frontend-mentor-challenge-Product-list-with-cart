@@ -52,7 +52,7 @@ Users should be able to:
 
 
 ### Prompt box looks with cart items
-![](./screenshotsprompt_box_with_only_tow_items.jpeg)
+![](./screenshots/prompt_box_with_only_tow_items.jpeg)
 
 
 ### Prompt box looks when many items in cart
