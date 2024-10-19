@@ -39,11 +39,12 @@ Users should be able to:
 
 
 ### Screen shows on medium tablets 
-![](./screenshots/mediam_tablet_view.jpeg)
+![](./screenshots/tablet_view.jpeg)
+
 
 
 ### Screen shows on normal  tablets 
-![](./screenshots/tablet_view.jpeg)
+![](./screenshots/mediam_tablet_view.jpeg)
 
 
 ### Screen shows on Mobiles
