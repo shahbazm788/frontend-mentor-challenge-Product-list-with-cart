@@ -41,7 +41,7 @@ Users should be able to:
 ## My process
 
 ### Built with 
--Most of work done in pure javascrupt
+- Most of work done in pure javascrupt
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
