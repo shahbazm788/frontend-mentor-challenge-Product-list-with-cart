@@ -47,13 +47,13 @@ const apiData = async () => {
 
                 <div class="card_btns" >
                  <div class="add_cart_btn" id='cart_btn_id${i}' onclick="hideBtn(${i})">
-                    <img src="/assets/images/icon-add-to-cart.svg" alt="">
+                    <img src="/assets/images/icon-add-to-cart.svg" alt="cart image">
                     <p>Add to Cart</p>
                   </div>
                   <div class="counter hide" id='counter_btn_id${i}'>
-                      <img class='dec_btn' onclick='decFunc(${i})' src="/assets/images/icon-decrement-quantity.svg" />
+                      <img class='dec_btn' onclick='decFunc(${i})' src="/assets/images/icon-decrement-quantity.svg"  alt="decrementt-icon"/>
                       <p class='counter_text' id='counter${i}'>0</p>
-                     <img class='inc_btn' onclick="incFunc(${i})"  id=""inc_btn" src="/assets/images/icon-increment-quantity.svg" /> 
+                     <img class='inc_btn' onclick="incFunc(${i})"  id=""inc_btn" src="/assets/images/icon-increment-quantity.svg" alt="increment Image" /> 
                     </div>
                 </div>
               </div>
@@ -203,7 +203,7 @@ function setCartDivData (){
                 </div>
               </div>
               <div class="cart_item_right" onclick="removeItemFromCart(${i})">
-                <img class="remove_cart_btn"  src="/assets/images/icon-remove-item.svg" />
+                <img class="remove_cart_btn"  src="/assets/images/icon-remove-item.svg"  alt="remove cart icon"/>
 
               </div>
             </div>`;
@@ -229,7 +229,7 @@ if(cartItems.length >  0){
               <p class="total_amount">\$${total}</p>
             </div>
             <div class="corben_delivery">
-              <img src="/assets/images/icon-carbon-neutral.svg" alt="">
+              <img src="/assets/images/icon-carbon-neutral.svg" alt="nothing">
               <p class="carbon_txt">This is a <span class="carbon_span">carbon-netural</span>
               deleviry</p>
             </div>
@@ -285,7 +285,7 @@ function confiromOrder (){
 
 return ` 
 <div class="cart_item confirom_box_model">
-  <div class="confirom_item_left"><img src="${item.thumbnail}" /></div>
+  <div class="confirom_item_left"><img src="${item.thumbnail}" alt="ok image" /></div>
   <div class="confirom_item_center">
     <p class="c_i_item_name">${item.name}</p>
     <div class="c_i_info">
